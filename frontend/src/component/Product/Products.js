@@ -10,14 +10,15 @@ import { useAlert } from "react-alert";
 import Typography from "@material-ui/core/Typography";
 import MetaData from "../layout/MetaData";
 
+
 const categories = [
-  "Laptop",
-  "Footwear",
-  "Bottom",
-  "Tops",
-  "Attire",
-  "Camera",
-  "SmartPhones",
+  "pizza",
+  "burger",
+  "pasta",
+  "chicken",
+  "mutton",
+  "patties",
+  "Omelette",
 ];
 
 const Products = ({ match }) => {
@@ -66,7 +67,7 @@ const Products = ({ match }) => {
         <Loader />
       ) : (
         <Fragment>
-          <MetaData title="PRODUCTS -- ECOMMERCE" />
+          <MetaData title="Food -- items" />
           <h2 className="productsHeading">Products</h2>
 
           <div className="products">

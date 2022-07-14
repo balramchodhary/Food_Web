@@ -28,13 +28,13 @@ const NewProduct = ({ history }) => {
   const [imagesPreview, setImagesPreview] = useState([]);
 
   const categories = [
-    "Laptop",
-    "Footwear",
-    "Bottom",
-    "Tops",
-    "Attire",
-    "Camera",
-    "SmartPhones",
+    "pizza",
+    "burger",
+    "pasta",
+    "chicken",
+    "mutton",
+    "patties",
+    "Omelette",
   ];
 
   useEffect(() => {
@@ -89,7 +89,7 @@ const NewProduct = ({ history }) => {
 
   return (
     <Fragment>
-      <MetaData title="Create Product" />
+      <MetaData title="Add new Foods" />
       <div className="dashboard">
         <SideBar />
         <div className="newProductContainer">
@@ -148,7 +148,7 @@ const NewProduct = ({ history }) => {
               <StorageIcon />
               <input
                 type="number"
-                placeholder="Stock"
+                placeholder="stock"
                 required
                 onChange={(e) => setStock(e.target.value)}
               />
