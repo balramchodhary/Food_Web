@@ -27,7 +27,7 @@ const Home = () => {
         <Loader />
       ) : (
         <Fragment>
-          <MetaData title="Online Food Restaurant" />
+          <MetaData title="Online  Restaurant" />
 
           <div className="banner">
             <p>Welcome to Ecommerce</p>
